@@ -1,6 +1,17 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
+import { useFonts } from 'expo-font';
+
 export default function CountRegressive() {
+    const [fontsLoaded] = useFonts({
+        RajdhaniRegular: require('../../assets/fonts/RajdhaniRegular.ttf'),
+        RajdhaniSemiBold: require('../../assets/fonts/Rajdhani-SemiBold.ttf'),
+        RajdhaniBold: require('../../assets/fonts/Rajdhani-Bold.ttf'),
+    });
+
+    if (!fontsLoaded) {
+        return null;
+    }
     return (
         <View style={styles.containerCount}>
             <View style={{display: 'flex', flexDirection: 'row', marginTop: 5}}><Text style={{color: '#FFF'}}>Próximo Sorteio:</Text><Text style={{color: '#FFF', fontWeight: 'bold'}}> 26 de Setembro 2021</Text></View>
@@ -30,7 +41,8 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         padding: 15,
         alignItems: 'center',
-        marginTop: 20
+        marginTop: 20,
+        marginBottom: 10
     },
     cardNumberCount:{
         alignItems: 'center',
@@ -40,7 +52,7 @@ const styles = StyleSheet.create({
     },
     numberCount:{
         fontSize: 30,
-        fontWeight: 'bold',
+        fontFamily: 'RajdhaniBold',
         backgroundColor: '#003065',
         marginTop: 15,
         padding: 8,
