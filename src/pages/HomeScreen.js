@@ -39,11 +39,11 @@ export default function HomeScreen({navigation}) {
                     <Image source={iconBtnNova} style={styles.imgBtn} />
                     <Text style={styles.titleBtn}>Nova Aposta</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.BtnGrande}>
+                <TouchableOpacity style={styles.BtnGrande} onPress={() => navigation.navigate('Premiacao')}>
                     <Image source={iconBtnPremi} style={styles.imgBtn} />
                     <Text style={styles.titleBtn}>Premiação</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.BtnGrande}>
+                <TouchableOpacity style={styles.BtnGrande} onPress={() => navigation.navigate('Resultado')}>
                     <Image source={iconBtnResult} style={styles.imgBtn} />
                     <Text style={styles.titleBtn}>Resultado</Text>
                 </TouchableOpacity>
