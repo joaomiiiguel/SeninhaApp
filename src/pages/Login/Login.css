@@ -1,0 +1,28 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 500px;
+    color: #FFF;
+}
+
+.FormContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 300px;
+    width: 80%;
+}
+.PasswordError{
+    position:fixed;
+    width: 70%;
+    border-radius: 5px;
+    bottom: 30px;
+    background-color: rgba(165, 42, 42, 0.527);
+    text-align: center;
+    padding: 5px 0
+}

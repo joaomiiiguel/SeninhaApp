@@ -1,0 +1,19 @@
+.listLance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.RowLance{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.numberLance{
+    background-color: #1D72DE;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    width: 20px;
+    margin: 5px 10px ;
+}

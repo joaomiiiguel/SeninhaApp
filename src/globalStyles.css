@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #FFF;
+}
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 70vh;
+    margin-top: 20px;
+    padding: 0 4vh;
+}

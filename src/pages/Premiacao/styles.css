@@ -1,0 +1,27 @@
+.trofeuImg{
+    width: 50%;
+    margin: 15px auto;
+}
+.ResultadoPontuacao{
+    margin: 15px auto;
+    text-align: center;
+}
+.MaiorPonto{
+    font-size: 28pt;
+    font-weight: bold;
+}
+.MenorPonto{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.cardImportante{
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: black;
+    padding: 20px 10px;
+}
+.TitleImportante{
+    font-size: 13pt;
+    font-weight: bold;
+}

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #01356F 0%, #02244A 100%);
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: 'Rajdhani', sans-serif;
+}
+a:hover{
+  opacity: 0.7;
+}

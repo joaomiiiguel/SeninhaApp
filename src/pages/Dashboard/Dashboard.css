@@ -1,0 +1,50 @@
+* {
+margin: 0;
+}
+.Dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 100vh;
+    max-width: 500px;
+    color: #FFF;
+    padding: 0 2vh;
+}
+.Dashboard .contentDash{
+    margin-top: 20px;
+}
+.Title{
+    font-size: 18pt;
+}
+.ListButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ButtonLong{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border: none;
+    padding: 20px 15px;
+    color: #1B2B53;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.13);
+    border-radius: 8px;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Rajdhani', sans-serif;
+    width: 100%;
+    margin: 15px auto;
+}
+
+.iconReg{
+    width: 20px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #1B2B53;
+}
