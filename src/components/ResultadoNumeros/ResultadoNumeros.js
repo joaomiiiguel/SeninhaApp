@@ -1,16 +1,14 @@
 import React from 'react'
+import ListaNumeros from '../ListaNumeros/ListaNumeros'
 
-const listNumberos = [11,22,33,50,40,99]
+import './styles.css'
 
-export default function ResultadoNumeros({ numConcurso }) {
+export default function ResultadoNumeros({ numConcurso, listNumberos }) {
     return (
-        <div>
-            <p>Concurso:{numConcurso}</p>
-            <div>
-                {listNumberos.map(number =>(
-                    <p>{}</p>
-                ))}
-            </div>
+        <div className='containerCardResult'>
+            <p>Concurso: {numConcurso}</p>
+            <ListaNumeros listNumberos={listNumberos} />
+            
         </div>
     )
 }

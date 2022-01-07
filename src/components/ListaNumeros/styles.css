@@ -1,0 +1,13 @@
+.boxNumber{
+    background-color: white;
+    width: 40px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.numberText{
+    color: #003065;
+    font-weight: bold;
+    font-size: 14pt;
+
+}

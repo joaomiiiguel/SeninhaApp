@@ -11,6 +11,7 @@ import PremioIcon from '../../assets/image-8.png'
 import RankingIcon from '../../assets/image-9.png'
 import RegulamentoIcon from '../../assets/image-10.png'
 
+
 export default function Dashboard() {
     return (
         <div className="Dashboard">
@@ -19,7 +20,7 @@ export default function Dashboard() {
                 <p>Já fez sua aposta hoje?</p>
             </div>
             <div className="contentDash">
-                <ContagemRegressiva />
+                <ContagemRegressiva proximoSorteio={'01/10/2022'}/>
             </div>
             <div className="contentDash">
                 <p className="Title"><b>Sua Jogada</b></p>
@@ -32,7 +33,7 @@ export default function Dashboard() {
             </div>
             <Link to="/regulation">
                 <button className="ButtonLong">
-                    <img src={RegulamentoIcon} className="iconReg" alt='icones imagem'/>
+                    <img src={RegulamentoIcon} className="iconReg" alt='icones imagem' />
                     <p>Confira o nosso Regulamento</p>
                 </button>
             </Link>

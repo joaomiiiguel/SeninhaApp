@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Header({nameHeader, linkBack}) {
     return (
         <div className="headerRegulation">
-            <Link to={linkBack}> Voltar</Link>
+            <Link to={linkBack}>Voltar</Link>
             <h1 className='titleHeader'>{nameHeader}</h1>
             <div />
         </div>
