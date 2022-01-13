@@ -1,0 +1,49 @@
+.formAposta{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.listInput{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 30px 0;
+}
+.inputNumber{
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15pt;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0;
+    margin: 10px 5px;
+}
+.button{
+    font-family: 'Rajdhani', sans-serif;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    font-size: 13pt;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 0;
+}
+.Btazul{
+    background-color: #1D72DE;
+    font-weight: bold;
+}
+.Btbranco{
+    border: 1px solid white;
+}
+.Btbranco:active{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button:active{
+    opacity: 0.6;
+}

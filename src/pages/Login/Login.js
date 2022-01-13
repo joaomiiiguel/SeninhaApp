@@ -49,12 +49,9 @@ export default function Login() {
             setInterval(() => {
                 history.push("/Dashboard");
             }, 1000)
-            console.log('Logado')
         } else {
             setPasswordError(true)
-            console.log('Senha incorreta')
         }
-        console.log(data)
     }
 
     return (
