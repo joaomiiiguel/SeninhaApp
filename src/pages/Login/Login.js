@@ -31,8 +31,6 @@ export default function Login() {
     const password = '123'
 
     
-    
-
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
           return;
